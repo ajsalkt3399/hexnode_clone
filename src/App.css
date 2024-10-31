@@ -1,75 +1,47 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+  display: block;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
 
 @font-face {
   font-family: 'mulishbold';
-  src: url('mulish-bold-webfont.woff2') format('woff2'),
-       url('mulish-bold-webfont.woff') format('woff');
+  src: url('../public/fonts/mulish-bold-webfont.woff2') format('woff2'),
+       url('../public/fonts/mulish-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
-
-
-
 
 @font-face {
   font-family: 'mulishregular';
-  src: url('mulish-regular-webfont.woff2') format('woff2'),
-       url('mulish-regular-webfont.woff') format('woff');
+  src: url('../public/fonts/mulish-regular-webfont.woff2') format('woff2'),
+       url('../public/fonts/mulish-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: 'mulishsemibold';
+  src: url('../public/fonts/mulish-semibold-webfont.woff2') format('woff2'),
+       url('../public/fonts/mulish-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 
+.mulishbold{
+  font-family: "mulishbold" ;
+}
 
-@font-face {
-  font-family: 'mulishsemibold';
-  src: url('mulish-semibold-webfont.woff2') format('woff2'),
-       url('mulish-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+.mulishregular{
+  font-family: "mulishregular" ;
+}
+.mulishsemibold{
+  font-family: "mulishsemibold" ;
 }
