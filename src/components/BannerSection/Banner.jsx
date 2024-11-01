@@ -6,7 +6,7 @@ import strings from '../../strings/strings'; // Adjust the import path as necess
 function Banner({ style }) {
     return (
         <div className='bg-[#020A19]'>
-            <div className='custom_width flex max-xl:flex-col-reverse max-xl:items-center justify-between items-center pt-[85px]'>
+            <div className='custom_width flex max-xl:flex-col-reverse max-xl:items-center justify-between items-center gap-[150px]  max-xl:p-[85px_0_30px]  p-[130px_0_60px] bg-[#020A19]'>
                 <BannerLeftSection />
                 <BannerSection />
             </div>

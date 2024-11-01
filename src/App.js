@@ -12,7 +12,7 @@ function App() {
     alert('Button Clicked!');
   };
   return (
-    <div className="bg-[#020A19]">
+    <div className="bg-[#020A19] ">
       <NavBar />
 
 

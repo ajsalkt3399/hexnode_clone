@@ -9,6 +9,7 @@ img{
   width: 100%;
 }
 
+
 @font-face {
   font-family: 'mulishbold';
   src: url('../public/fonts/mulish-bold-webfont.woff2') format('woff2'),

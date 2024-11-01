@@ -1,7 +1,7 @@
 // src/strings.ts
 const strings = {
     Banner: {
-        heading: "Hexnode's Unified Endpoint Management (UEM) solution",
+        heading: "Unified Endpoint Management",
         subheading: "Gain control and visibility over your endpoints",
         description: "Hexnode's UEM solution allows you to simplify endpoint management and free up IT. Focus on the big picture while Hexnode works on the details.",
     },
