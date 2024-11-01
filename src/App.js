@@ -1,9 +1,10 @@
 // src/App.js
 import React from 'react';
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
 import './App.css';
 import './index.css';
+import NavBar from './components/Header/NavBar';
+import Banner from './components/BannerSection/Banner';
 
 
 function App() {
@@ -11,15 +12,23 @@ function App() {
     alert('Button Clicked!');
   };
   return (
-    <div>
-      <Header style=""/>
-      <main className='h-[2000px]'>
-dd
+    <div className="bg-[#020A19]">
+      <NavBar />
+
+
+      {/* Main Sections */}
+      <main className=''>
+        <Banner />
+
+    
       </main>
+
+
+      {/* Footer */}
       <div className='bg-[#f2f2f2] '>
         <Footer style="custom_width" />
       </div>
-     
+
     </div>
   );
 }

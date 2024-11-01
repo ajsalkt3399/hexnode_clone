@@ -19,14 +19,14 @@ function NavBar() {
     }, []);
 
     return (
-        <div className={` fixed top-0 left-0 w-full z-50 p-4 transition-colors duration-300 ${scrolled ? 'bg-white text-[#020A19]' : 'bg-[#020A19] text-white'}`}>
+        <div className={` fixed top-0 left-0 w-full z-50 py-4 transition-colors duration-300 ${scrolled ? 'bg-white text-[#020A19]' : 'bg-[#020A19] text-white'}`}>
             <div className='flex justify-between items-center custom_width'>
                 <div className='flex justify-between items-center '>
                     <div className='w-[120px]'>
                         <img src={logo} alt="Logo" className={`${scrolled ? '' : 'invert_color'}`} />
                     </div>
                     <div className="flex space-x-4">
-                        <a href="#why-hexanodes" className="cursor-pointer">Why Hexanodes</a>
+                        <a href="#why-hexnodes" className="cursor-pointer">Why Hexnodes</a>
                         <a href="#features" className="cursor-pointer">Features</a>
                         <a href="#platforms" className="cursor-pointer">Platforms</a>
                         <a href="#customers" className="cursor-pointer">Customers</a>
