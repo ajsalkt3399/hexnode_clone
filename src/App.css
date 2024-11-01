@@ -45,3 +45,15 @@ img{
 .mulishsemibold{
   font-family: "mulishsemibold" ;
 }
+
+.invert_color {
+  filter: brightness(0) invert(1);
+}
+html {
+  scroll-behavior: smooth;
+}
+.custom_width{
+  width: 88%;
+  margin: 0 auto;
+  max-width: 1300px;
+}

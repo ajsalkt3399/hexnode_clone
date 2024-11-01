@@ -2,7 +2,6 @@
 import React from 'react';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
-import RedButton from './components/Buttons/RedButton';
 import './App.css';
 import './index.css';
 
@@ -13,19 +12,14 @@ function App() {
   };
   return (
     <div>
-      <Header />
-      <main>
-      <div className="App">
-      <RedButton
-        label="Click Me" 
-        customStyle="text-lg shadow-lg " 
-        onClick={handleClick} 
-      />
-    
-    </div>
-    <div className='mulishbold'>drrerr</div>
+      <Header style=""/>
+      <main className='h-[2000px]'>
+dd
       </main>
-      <Footer />
+      <div className='bg-[#f2f2f2] '>
+        <Footer style="custom_width" />
+      </div>
+     
     </div>
   );
 }
