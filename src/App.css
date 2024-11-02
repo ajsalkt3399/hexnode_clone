@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-img{
+img {
   display: block;
   width: 100%;
 }
@@ -13,7 +13,7 @@ img{
 @font-face {
   font-family: 'mulishbold';
   src: url('../public/fonts/mulish-bold-webfont.woff2') format('woff2'),
-       url('../public/fonts/mulish-bold-webfont.woff') format('woff');
+    url('../public/fonts/mulish-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -21,7 +21,7 @@ img{
 @font-face {
   font-family: 'mulishregular';
   src: url('../public/fonts/mulish-regular-webfont.woff2') format('woff2'),
-       url('../public/fonts/mulish-regular-webfont.woff') format('woff');
+    url('../public/fonts/mulish-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -29,32 +29,59 @@ img{
 @font-face {
   font-family: 'mulishsemibold';
   src: url('../public/fonts/mulish-semibold-webfont.woff2') format('woff2'),
-       url('../public/fonts/mulish-semibold-webfont.woff') format('woff');
+    url('../public/fonts/mulish-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 
 
-.mulishbold{
-  font-family: "mulishbold" ;
+.mulishbold {
+  font-family: "mulishbold";
 }
 
-.mulishregular{
-  font-family: "mulishregular" ;
+.mulishregular {
+  font-family: "mulishregular";
 }
-.mulishsemibold{
-  font-family: "mulishsemibold" ;
+
+.mulishsemibold {
+  font-family: "mulishsemibold";
 }
 
 .invert_color {
   filter: brightness(0) invert(1);
 }
+
 html {
   scroll-behavior: smooth;
 }
-.custom_width{
+
+.scroll-margin-top {
+  scroll-margin-top: 70px;
+}
+
+.custom_width {
   width: 88%;
   margin: 0 auto;
   max-width: 1300px;
+}
+
+@keyframes whyHexnode_hexnodeAnimationWrap__zQlMr {
+  0% {
+    stroke-dashoffset: 0px;
+  }
+
+  100% {
+    stroke-dashoffset: -3500;
+  }
+}
+
+.whyHexnode_hexnodeAnimationWrap__zQlMr .line-animation {
+  /* width: 100%; */
+}
+
+.line-animation {
+  /* stroke-dashoffset: 7;  */
+  animation: whyHexnode_hexnodeAnimationWrap__zQlMr 2s linear infinite;
+  /* Apply the animation */
 }
