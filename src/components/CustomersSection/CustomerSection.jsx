@@ -1,9 +1,10 @@
 import React from 'react'
+import BottomSlider from './BottomSlider'
 
 function CustomerSection() {
   return (
-    <div>
-      
+    <div className='bg-white'>
+      <BottomSlider/>
     </div>
   )
 }

@@ -8,6 +8,7 @@ import WhyHexSection from './components/WhyHexanodesSection/WhyHexSection';
 import FeatureSection from './components/FeaturesSection/FeatureSection';
 import PlatformsSection from './components/PlatformsSection/PlatformsSection';
 import CustomerSection from './components/CustomersSection/CustomerSection';
+import GetHexnodesSection from './components/Footer/GetHexnodesSection';
 
 function App() {
   const handleClick = () => {
@@ -25,6 +26,7 @@ function App() {
         <FeatureSection />
         <PlatformsSection />
         <CustomerSection/>
+        <GetHexnodesSection/>
       </main>
 
       {/* Footer */}
