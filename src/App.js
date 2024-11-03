@@ -31,7 +31,7 @@ function App() {
 
       {/* Footer */}
       <div className="bg-[#f2f2f2]">
-        <Footer style="custom_width" />
+        <Footer  />
       </div>
     </div>
   );

@@ -13,24 +13,32 @@ function BottomSlider() {
   const settings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 6,    
+    slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
-    arrows: false,      
+    arrows: false,
   };
+
+  const images = [
+    { src: Saic, alt: "SAIC" },
+    { src: Wolt, alt: "Wolt" },
+    { src: Polaris, alt: "Polaris" },
+    { src: Lowes, alt: "Lowes" },
+    { src: Marriott, alt: "Marriott" },
+    { src: Gorillas, alt: "Gorillas" },
+    { src: Hilton, alt: "Hilton" },
+    { src: Costco, alt: "Costco" },
+  ];
 
   return (
     <div className='relative w-full custom_width pt-[20px] pb-[60px] lg:pb-[80px] lg:pt-[30px] bg-[#FFFFFF]'>
-      <Slider {...settings} className="relative  overflow-hidden">
-        <div className='flex items-center justify-center h-[71px]'><img src={Saic} alt="SAIC" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Wolt} alt="Wolt" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Polaris} alt="Polaris" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Lowes} alt="Lowes" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Marriott} alt="Marriott" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Gorillas} alt="Gorillas" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Hilton} alt="Hilton" className="w-[180px]" /></div>
-        <div className='flex items-center justify-center h-[71px]'><img src={Costco} alt="Costco" className="w-[180px]" /></div>
+      <Slider {...settings} className="relative overflow-hidden">
+        {images.map((image, index) => (
+          <div key={index} className='flex items-center justify-center h-[71px]'>
+            <img src={image.src} alt={image.alt} className="w-[180px]" />
+          </div>
+        ))}
       </Slider>
 
       {/* Left gradient */}
