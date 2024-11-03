@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/hexnode_clone/static/css/main.4fc162d5.css",
-    "main.js": "/hexnode_clone/static/js/main.b7875aec.js",
+    "main.css": "/hexnode_clone/static/css/main.dafa748c.css",
+    "main.js": "/hexnode_clone/static/js/main.1517e25c.js",
     "static/js/453.345e0668.chunk.js": "/hexnode_clone/static/js/453.345e0668.chunk.js",
+    "static/media/ios.jpeg": "/hexnode_clone/static/media/ios.51a27e5877c1053f60eb.jpeg",
     "static/media/image_7.jpeg": "/hexnode_clone/static/media/image_7.f189431ba86004fe90d4.jpeg",
+    "static/media/macos.jpeg": "/hexnode_clone/static/media/macos.a33d240304da15d7f76d.jpeg",
+    "static/media/android.jpeg": "/hexnode_clone/static/media/android.3d6d5f7b542574b50375.jpeg",
     "static/media/image_26.jpeg": "/hexnode_clone/static/media/image_26.af85dad144e7d0e3845f.jpeg",
+    "static/media/fireos.jpeg": "/hexnode_clone/static/media/fireos.a9709eabfb4a186ed37b.jpeg",
+    "static/media/tvos.jpeg": "/hexnode_clone/static/media/tvos.60da040f8b4706177926.jpeg",
     "static/media/image_19.jpeg": "/hexnode_clone/static/media/image_19.07d762339d0d86cf64c1.jpeg",
     "static/media/image_9.png": "/hexnode_clone/static/media/image_9.7b56d5958c48088668e8.png",
     "static/media/image_32.jpeg": "/hexnode_clone/static/media/image_32.48a6b5ba975513a8b4ed.jpeg",
     "static/media/image_11.png": "/hexnode_clone/static/media/image_11.2c963f728dd19b276e38.png",
     "static/media/image_21.png": "/hexnode_clone/static/media/image_21.cf0b5302193415b43fda.png",
     "static/media/image_6.png": "/hexnode_clone/static/media/image_6.7b4e8b319e1e0a0afa2f.png",
+    "static/media/windows.jpeg": "/hexnode_clone/static/media/windows.c6b5f24a669ed626dcb7.jpeg",
     "static/media/image_28.jpeg": "/hexnode_clone/static/media/image_28.bfbe70f0773be4d3942c.jpeg",
     "static/media/image_22.jpeg": "/hexnode_clone/static/media/image_22.98d6fdd0e9d15496ad8e.jpeg",
     "static/media/mulish-bold-webfont.woff": "/hexnode_clone/static/media/mulish-bold-webfont.0ea4837838607620d616.woff",
@@ -39,12 +45,12 @@
     "static/media/adapt.svg": "/hexnode_clone/static/media/adapt.ef8548ec870c7feafe407d4307e1c754.svg",
     "static/media/zero_comprimise.svg": "/hexnode_clone/static/media/zero_comprimise.11d2d965990e893840e6e23e6ecbf977.svg",
     "index.html": "/hexnode_clone/index.html",
-    "main.4fc162d5.css.map": "/hexnode_clone/static/css/main.4fc162d5.css.map",
-    "main.b7875aec.js.map": "/hexnode_clone/static/js/main.b7875aec.js.map",
+    "main.dafa748c.css.map": "/hexnode_clone/static/css/main.dafa748c.css.map",
+    "main.1517e25c.js.map": "/hexnode_clone/static/js/main.1517e25c.js.map",
     "453.345e0668.chunk.js.map": "/hexnode_clone/static/js/453.345e0668.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc162d5.css",
-    "static/js/main.b7875aec.js"
+    "static/css/main.dafa748c.css",
+    "static/js/main.1517e25c.js"
   ]
 }
