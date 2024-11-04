@@ -42,9 +42,9 @@ function BottomSlider() {
       </Slider>
 
       {/* Left gradient */}
-      <div className='w-[70px] sm:w-[100px] h-[40px] sm:h-[80px] absolute top-0 left-0 bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-transparent z-[1]'></div>
+      <div className='w-[70px] sm:w-[100px] h-[100%]  absolute top-0 left-0 bg-gradient-to-r from-[#FFFFFF] via-[#FFFFFF] to-transparent z-[1]'></div>
       {/* Right gradient */}
-      <div className='w-[70px] sm:w-[100px] h-[40px] sm:h-[80px] top-0 absolute right-0 bg-gradient-to-l from-[#FFFFFF] via-[#FFFFFF] to-transparent z-[1]'></div>
+      <div className='w-[70px] sm:w-[100px] h-[100%]  top-0 absolute right-0 bg-gradient-to-l from-[#FFFFFF] via-[#FFFFFF] to-transparent z-[1]'></div>
     </div>
   );
 }

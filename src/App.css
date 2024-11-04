@@ -57,7 +57,15 @@ html {
 }
 
 .scroll-margin-top {
-  scroll-margin-top: 70px;
+  scroll-margin-top: 72px;
+}
+.z_49{
+  z-index: 45 !important;
+
+}
+
+.z_2{
+  z-index: 2 !important;
 }
 
 .custom_width {
@@ -86,3 +94,14 @@ html {
   /* Apply the animation */
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+.error-message {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.error-message.visible {
+  opacity: 1;
+}

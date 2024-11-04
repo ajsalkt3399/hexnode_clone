@@ -61,14 +61,14 @@ function PlatformsSection() {
                 <p className="hidden md:block text-[16px] md:text-[18px] leading-[28px] text-center font-regular text-[#333333]">
                     Devices of varying platforms? Hexnode thrives in a diverse environment.
                 </p>
-                <div className='flex max-md:flex-col'>
+                <div className='flex max-md:flex-col '>
                     <div className='rounded-[20px] max-md:hidden overflow-hidden transition-all duration-300 ease-out inline-block opacity-100'>
                         <img src={currentImage} alt="" className='max-h-[565px]' /> {/* Display the current image */}
                     </div>
                     <div className='min-h-[375px] md:w-[54%] md:max-w-[700px] shrink-0 w-full relative pl-[40px]'>
                         {platforms.map((platform, index) => (
                             <>
-                                {visiblePlatform === index && (<div className='md:hidden w-[88%] max-w-[320px] xs:max-w-[340px] mx-auto  rounded-[10px] overflow-hidden active  my-[20px]'>
+                                {visiblePlatform === index && (<div className='md:hidden  w-[88%] max-w-[320px] xs:max-w-[340px] mx-auto  rounded-[10px] overflow-hidden active  my-[20px]'>
                                     <img src={currentImage} alt="" className='max-w-[340px] h-[320px]' /> {/* Display the current image */}
                                 </div>)}
                                 <div className={`group active ${visiblePlatform === index ? 'bg-[#fff] border   border-solid border-[#D7D7D7] ' : 'bg-transparent'} rounded-[15px] px-[30px]  mx-[30px]`}>
