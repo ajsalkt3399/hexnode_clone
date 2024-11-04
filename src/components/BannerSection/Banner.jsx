@@ -18,7 +18,7 @@ function Banner({ style }) {
                             <React.Fragment key={index}>
                                 <a
                                     target="_blank"
-                                    className="group max-w-[340px] md:max-w-[27%] flex-[0_0_100%] md:flex-[0_0_27%] px-[0px] py-[40px] md:py-[0px] md:px-[10px] lg:px-[25px] xl:px-[45px] transition-all duration-500 ease-in-out hover:mt-[-5px] hover:mb-[5px]"
+                                    className=" max-w-[340px] md:max-w-[27%] flex-[0_0_100%] md:flex-[0_0_27%] px-[0px] py-[40px] md:py-[0px] md:px-[10px] lg:px-[25px] xl:px-[45px] transition-all duration-500 ease-in-out hover:mt-[-5px] hover:mb-[5px]"
                                     href={BannerBottom.url}
                                 >
                                     <div className="flex flex-col items-center md:items-baseline ">

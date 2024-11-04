@@ -32,22 +32,24 @@ function NavBar() {
             }
 
             <div
-                className={`fixed top-0 left-0 w-full z-30 py-4 transition-colors duration-300 h-[69px] border-solid border-[#D7D7D7] ${scrolled || isHovered || isOpen ? 'bg-white text-[#020A19] border-b-[1px]' : 'bg-[#020A19] text-white'
-                    }`}
+                className={`fixed top-0 left-0 w-full z-30 py-4 transition-colors duration-300 h-[69px] 
+                border-b-[1px] ${scrolled || isHovered || isOpen ? 'bg-white text-[#020A19] border-[#D7D7D7]' : 'bg-[#020A19] text-white border-transparent'}
+                `}
+
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                <div className={`flex justify-between  items-center custom_width ` }>
+                <div className={`flex justify-between  items-center custom_width `}>
                     <div className='flex justify-between items-center gap-5'>
                         <div className='w-[120px] flex justify-center items-center mb-[8px]'>
-                            
-                            
-                                <img
+
+
+                            <img
                                 src={logo}
                                 alt="Logo"
                                 className={`${(scrolled || isHovered || isOpen) ? '' : 'invert'}`} // Apply invert filter
                             />
-                     
+
                         </div>
                         <div className="flex gap-5 max-xl:hidden text-[15px] mulishbold">
                             <a href="#why-hexnodes" className="cursor-pointer">Why Hexnodes</a>

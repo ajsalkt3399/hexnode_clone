@@ -63,7 +63,7 @@ function TopSection() {
                             <div className="slick-slider slick-initialized" dir="ltr">
                                 <button
                                     onClick={() => sliderRef.current.slickPrev()}
-                                    className={`flex items-center justify-center bottom-[-80px] absolute leading-[0px] ${isFirstSlide ? 'cursor-not-allowed opacity-50' : ''} left-[50%] w-[56px] h-[56px] rounded-[12px] bg-[#F7F7F7] lg:bottom-[50%] group translate-x-[-62px] lg:translate-x-[-50%] lg:translate-y-[50%] lg:left-[-60px]`}
+                                    className={`flex items-center justify-center bottom-[-80px] absolute leading-[0px] ${isFirstSlide ? 'cursor-not-allowed opacity-50' : ''} left-[50%] w-[56px] h-[56px] rounded-[12px] bg-[#F7F7F7] lg:bottom-[50%] translate-x-[-62px] lg:translate-x-[-50%] lg:translate-y-[50%] lg:left-[-60px]`}
                                 >
                                     <div className='w-[20px] h-[35px]  flex justify-center items-center'>
                                         <img alt="previous arrow" loading="lazy" decoding="async" data-nimg="1" className="mx-auto  object-scale-down" src="https://static.hexnode.com/v2/assets/img/ads-pages/prev-arrow-icon-black.svg" />
@@ -76,7 +76,7 @@ function TopSection() {
                                             {reviews.map((review) => (
                                                 <div key={review.id} className="slick-slide outline-none">
                                                     <div>
-                                                        <div className="flex flex-col md:flex-row overflow-hidden rounded-[18px] relative group">
+                                                        <div className="flex flex-col md:flex-row overflow-hidden rounded-[18px] relative ">
                                                             <div className="max-h-[400px] w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] md:w-[unset] md:h-[unset] lg:w-[320px] lg:h-[320px] relative md:basis-[47%] md:max-w-[320px] leading-[0px] overflow-hidden">
                                                                 <img src={review.image} alt={review.author} className='w-full h-full object-auto'/>
                                                             </div>
@@ -112,7 +112,7 @@ function TopSection() {
                                 </div>
                                 <button
                                     onClick={() => sliderRef.current.slickNext()}
-                                    className={`flex items-center justify-center bottom-[-80px] absolute leading-[0px] ${isLastSlide ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'} left-[50%] w-[56px] h-[56px] rounded-[12px] bg-[#F7F7F7] lg:bottom-[50%] group translate-x-[8px] lg:translate-x-[50%] lg:translate-y-[50%] lg:left-[unset] lg:right-[-60px]`}
+                                    className={`flex items-center justify-center bottom-[-80px] absolute leading-[0px] ${isLastSlide ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'} left-[50%] w-[56px] h-[56px] rounded-[12px] bg-[#F7F7F7] lg:bottom-[50%] translate-x-[8px] lg:translate-x-[50%] lg:translate-y-[50%] lg:left-[unset] lg:right-[-60px]`}
                                 >   <div className='w-[20px] h-[35px] flex justify-center items-center'>
                                         <img alt="next arrow" loading="lazy" width="9" height="17" decoding="async" data-nimg="1" className="object-scale-down mx-auto opacity-75 group-hover:opacity-100 " src="https://static.hexnode.com/v2/assets/img/ads-pages/next-arrow-icon-black.svg" />
                                     </div> </button>

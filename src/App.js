@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect, useState } from 'react';
+import React, { Suspense, useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -16,15 +16,15 @@ import BounceModal from './components/BounceModal/BounceModal';
 function App() {
   const [itsTimeToBounce, setItsTimeToBounce] = useState(false);
 
-  
+
   const handleClick = () => {
     alert('Button Clicked!');
   };
   useEffect(() => {
-    // if (!Cookies.get('nopopup')) {
+    if (!Cookies.get('nopopup')) {
       setItsTimeToBounce(true);
-      // Cookies.set('nopopup', true, { expires: 1 });
-    // }
+      Cookies.set('nopopup', true, { expires: 1 });
+    }
   }, []);
 
   return (

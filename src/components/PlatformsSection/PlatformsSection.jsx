@@ -58,7 +58,7 @@ function PlatformsSection() {
                 <h2 className='antialiased text-[32px] md:text-[40px] leading-[40px] md:leading-[1.3] text-center font-bold text-[#020a19] pb-[20px] md:pb-[20px] max-sm:max-w-[1300px] max-sm:w-[88%] mx-auto'>
                     Multi-platform Endpoint Management
                 </h2>
-                <p className="hidden md:block text-[16px] md:text-[18px] leading-[28px] text-center font-regular text-[#333333]">
+                <p className="hidden mb-[30px] md:block text-[16px] md:text-[18px] leading-[28px] text-center font-regular text-[#333333]">
                     Devices of varying platforms? Hexnode thrives in a diverse environment.
                 </p>
                 <div className='flex max-md:flex-col '>

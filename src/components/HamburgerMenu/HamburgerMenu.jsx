@@ -42,7 +42,7 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
                 <div className={`w-[50%] h-[100vh] bg-[#fff] max-sm:w-[100%] text-black pt-[70px] transition-transform duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                     <ul className="text-[16px] text-[#BFC0C1] leading-[13px] list-none flex justify-between m-0 px-0 flex-col w-full xl:flex-row xl:w-[unset]" role="menubar" aria-label="Navigation drawer">
                         {menuItems.map((item, index) => (
-                            <li key={index} className="group text-[15px] text-[#101420] leading-[24px] border-b-[1px] border-solid border-[#f3f3f3] flex items-start px-[30px] py-[20px] cursor-pointer xl:text-[#fff] xl:border-0 xl:pl-[0px] xl:pr-[3px] xl:pt-[0px] xl:pb-[0px] xl:even:mx-[25px] xl:cursor-default" role="none">
+                            <li key={index} className=" text-[15px] text-[#101420] leading-[24px] border-b-[1px] border-solid border-[#f3f3f3] flex items-start px-[30px] py-[20px] cursor-pointer xl:text-[#fff] xl:border-0 xl:pl-[0px] xl:pr-[3px] xl:pt-[0px] xl:pb-[0px] xl:even:mx-[25px] xl:cursor-default" role="none">
                                 <button className="text-[15px] leading-[24px] cursor-pointer w-full nav-link xl:leading-[20px]" onClick={() => handleMenuClick(item.href)}>
                                     {item.label}
                                 </button>
