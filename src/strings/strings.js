@@ -3,7 +3,6 @@ import adaptIcon from '../Assets/images/adapt.svg';
 import zeroCompromiseIcon from '../Assets/images/zero_comprimise.svg';
 import getMoreIcon from '../Assets/images/get_more.svg';
 import unifiedPolicyIcon from '../Assets/images/unified_policy.svg';
-import FeatureSection from '../components/FeaturesSection/FeatureSection';
 
 
 const strings = {

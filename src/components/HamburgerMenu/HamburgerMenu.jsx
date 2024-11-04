@@ -54,7 +54,7 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
                             <Button label="TRY HEXNODE FOR FREE" customStyle="bg-[#DD0735] w-[350px] max-w-[90%] hover:bg-[#AA232F] flex items-center justify-center py-[15px] transition-all duration-300 ease-out rounded-[3px]" />
                         </div>
                         <div className="flex justify-center items-center mt-[20px] mb-[10px] xl:hidden">
-                            <a target="_self" rel="nofollow" role="link" aria-label="Login" className="inline-block nav-bar_login-btn-ctrl__4QBMi" href="/">Login</a>
+                            <a target="_self" rel="nofollow" role="" aria-label="Login" className="inline-block nav-bar_login-btn-ctrl__4QBMi" href="/">Login</a>
                         </div>
                     </div>
                 </div>

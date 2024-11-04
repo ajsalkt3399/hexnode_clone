@@ -13,7 +13,7 @@ function Footer() {
                     <li className="inline-block leading-1 list-none after:content-['-'] after:text-[14px] after:leading-1 after:inline-flex after:p-[0_5px] after:opacity-80 last:after:hidden">
                       <a
                         className="text-[12px] leading-[24px] text-text-default font-medium cursor-pointer transition-all duration-[0.3s] ease-in-out hover:text-[#020a19]"
-                        role="link"
+                        role=""
                         href="https://www.hexnode.com/legal/terms-of-use/"
                       >
                         Terms of Use
@@ -22,7 +22,7 @@ function Footer() {
                     <li className="inline-block leading-1 list-none after:content-['-'] after:text-[14px] after:leading-1 after:inline-flex after:p-[0_5px] after:opacity-80 last:after:hidden">
                       <a
                         className="text-[12px] leading-[24px] text-text-default font-medium cursor-pointer transition-all duration-[0.3s] ease-in-out hover:text-[#020a19]"
-                        role="link"
+                        role=""
                         href="https://www.hexnode.com/legal/privacy-policy/"
                       >
                         Privacy
@@ -31,7 +31,7 @@ function Footer() {
                     <li className="inline-block leading-1 list-none after:content-['-'] after:text-[14px] after:leading-1 after:inline-flex after:p-[0_5px] after:opacity-80 last:after:hidden">
                       <a
                         className="text-[12px] leading-[24px] text-text-default font-medium cursor-pointer transition-all duration-[0.3s] ease-in-out hover:text-[#020a19]"
-                        role="link"
+                        role=""
                         href="https://www.hexnode.com/legal/cookies-policy/"
                       >
                         Cookies
