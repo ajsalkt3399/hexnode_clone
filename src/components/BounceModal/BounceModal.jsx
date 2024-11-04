@@ -32,7 +32,7 @@ function BounceModal({ setItsTimeToBounce }) {
     }, []);
 
     return (
-        <div className='fixed top-0 left-0 w-full h-[100vh] bg-[rgba(0,0,0,.6)] flex justify-center items-center max-md:mt-[-100px] z-50'>
+        <div className='fixed top-0 left-0 w-full h-[100vh] bg-[rgba(0,0,0,.6)] flex justify-center items-center  z-50'>
             <div ref={modalRef} className='relative flex flex-col justify-center rounded-[25px]  w-[650px] max-md:w-[90%] z-50 overflow-hidden'>
                 <img src={Image} alt="" className='w-full' /> {/* Adjust width to ensure it fits the container */}
 

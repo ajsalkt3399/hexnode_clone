@@ -4,10 +4,10 @@ import Button from '../Buttons/Button';
 
 function HamburgerMenu({ isOpen, toggleMenu }) {
     const menuItems = [
-        { label: 'Why Hexnode', href: '/solutions/hexnode-uem/#why-hexnodes' },
-        { label: 'Features', href: '/solutions/hexnode-uem/#features' },
-        { label: 'Platforms', href: '/solutions/hexnode-uem/#platforms' },
-        { label: 'Customers', href: '/solutions/hexnode-uem/#customers' }
+        { label: 'Why Hexnode', href: '/' },
+        { label: 'Features', href: '/' },
+        { label: 'Platforms', href: '/' },
+        { label: 'Customers', href: '/' }
     ];
 
     useEffect(() => {
@@ -54,7 +54,7 @@ function HamburgerMenu({ isOpen, toggleMenu }) {
                             <Button label="TRY HEXNODE FOR FREE" customStyle="bg-[#DD0735] w-[350px] max-w-[90%] hover:bg-[#AA232F] flex items-center justify-center py-[15px] transition-all duration-300 ease-out rounded-[3px]" />
                         </div>
                         <div className="flex justify-center items-center mt-[20px] mb-[10px] xl:hidden">
-                            <a target="_self" rel="nofollow" role="link" aria-label="Login" className="inline-block nav-bar_login-btn-ctrl__4QBMi" href="https://www.hexnode.com/mobile-device-management/sign-in/">Login</a>
+                            <a target="_self" rel="nofollow" role="link" aria-label="Login" className="inline-block nav-bar_login-btn-ctrl__4QBMi" href="/">Login</a>
                         </div>
                     </div>
                 </div>
