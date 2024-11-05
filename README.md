@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Hexnode Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the Hexnode Clone project. Follow the steps below to get started.
 
-## Available Scripts
+## Steps to Follow
 
-In the project directory, you can run:
+### Method 1: Download ZIP
 
-### `npm start`
+1. **Go to the Repository:**
+   - Visit [Hexnode Clone Repository](https://github.com/ajsalkt3399/hexnode_clone) on GitHub.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Download the Repository:**
+   - Click on the green **Code** button.
+   - Select **Download ZIP** under the **Local** tab.
+   - Extract the downloaded ZIP file.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Open in VS Code:**
+   - Open the unzipped folder in Visual Studio Code.
 
-### `npm test`
+4. **Open Terminal:**
+   - Click on the **Terminal** menu in the top bar of VS Code.
+   - Select **New Terminal**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Install Dependencies:**
+   - Run the following command to install the necessary node modules:
+     ```bash
+     npm install
+     ```
+     *or*
+     ```bash
+     yarn install
+     ```
 
-### `npm run build`
+6. **Start the Project:**
+   - To run the project, use:
+     ```bash
+     npm start
+     ```
+     *or*
+     ```bash
+     yarn start
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Method 2: Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:**
+   - Open your terminal.
+   - Run the following command to clone the repository:
+     ```bash
+     git clone https://github.com/ajsalkt3399/hexnode_clone.git
+     ```
 
-### `npm run eject`
+2. **Open in VS Code:**
+   - Open the cloned folder in Visual Studio Code.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Open Terminal:**
+   - In VS Code, go to the **Terminal** menu and select **New Terminal**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Install Dependencies:**
+   - Run the following command to install the necessary node modules:
+     ```bash
+     npm install 
+     ```
+     *or*
+     ```bash
+     yarn install
+     ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Start the Project:**
+   - To run the project, use:
+     ```bash
+     npm start
+     ```
+     *or*
+     ```bash
+     yarn start
+     ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Now you’re ready !
 
-## Learn More
+The project has been deployed on GitHub Pages. You can view the live version here:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Hexnode Clone - Live Demo: https://ajsalkt3399.github.io/hexnode_clone/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(Note: Any issues viewing the site, try using an incognito window.)
