@@ -1,6 +1,7 @@
 # Hexnode Clone
 
-This repository contains the Hexnode Clone project. Follow the steps below to get started.
+This repository contains the Hexnode Clone project, built with **React.js** for the front-end framework and **Tailwind CSS** for styling. Follow the steps below to get started.
+
 
 ## Steps to Follow
 
