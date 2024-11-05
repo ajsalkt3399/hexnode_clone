@@ -65,13 +65,13 @@ function PlatformsSection() {
                     <div className='rounded-[20px] max-md:hidden overflow-hidden transition-all duration-300 ease-out inline-block opacity-100'>
                         <img src={currentImage} alt="" className='max-h-[565px]' /> {/* Display the current image */}
                     </div>
-                    <div className='min-h-[375px] md:w-[54%] md:max-w-[700px] shrink-0 w-full relative pl-[40px]'>
+                    <div className='min-h-[375px] md:w-[54%] md:max-w-[700px] shrink-0 w-full relative '>
                         {platforms.map((platform, index) => (
                             <>
                                 {visiblePlatform === index && (<div className='md:hidden  w-[88%] max-w-[320px] xs:max-w-[340px] mx-auto  rounded-[10px] overflow-hidden active  my-[20px]'>
                                     <img src={currentImage} alt="" className='max-w-[340px] h-[320px]' /> {/* Display the current image */}
                                 </div>)}
-                                <div className={`group active ${visiblePlatform === index ? 'bg-[#fff] border   border-solid border-[#D7D7D7] ' : 'bg-transparent'} rounded-[15px] px-[30px]  mx-[30px]`}>
+                                <div className={`group active ${visiblePlatform === index ? 'bg-[#fff] border   border-solid border-[#D7D7D7] ' : 'bg-transparent'} rounded-[15px] px-[30px]  mx-[30px] max-md:mx-0`}>
                                     <h3
                                         onClick={() => handleToggle(index)}
                                         className={`text-[#050607] cursor-pointer font-bold text-[24px] leading-[30px] ${!(visiblePlatform === index || visiblePlatform === index + 1) && index !== platforms.length - 1 ? 'border-b-[1px] border-solid border-[#D7D7D7]' : ''} text-left transition-[padding] duration-300 ease-in-out py-[15px]`}

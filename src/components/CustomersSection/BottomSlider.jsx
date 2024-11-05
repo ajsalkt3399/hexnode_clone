@@ -18,7 +18,22 @@ function BottomSlider() {
     autoplay: true,
     autoplaySpeed: 2500,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 768, 
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
   };
+
 
   const images = [
     { src: Saic, alt: "SAIC" },
@@ -36,7 +51,7 @@ function BottomSlider() {
       <Slider {...settings} className="relative overflow-hidden">
         {images.map((image, index) => (
           <div key={index} className='flex items-center justify-center h-[71px]'>
-            <img src={image.src} alt={image.alt} className="w-[180px]" />
+            <img src={image.src} alt={image.alt} className="w-[180px] " />
           </div>
         ))}
       </Slider>
