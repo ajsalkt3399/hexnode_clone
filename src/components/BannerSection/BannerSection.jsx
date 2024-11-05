@@ -15,7 +15,7 @@ function BannerSection({ style }) {
                     </div>
 
                     {/* Badge 1 */}
-                    <div className=" flex bg-[#FCD598] rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute top-[14%] left-[5%] sm:left-[13%] md:left-[6%] overflow-hidden">
+                    <div className=" flex bg-[#FCD598] rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute top-[14%] left-[5%] sm:left-[13%] md:left-[6%] overflow-hidden hover-bg-left-to-right">
                         <div className="w-[19px] h-[19px] sm:w-[33px] flex items-center sm:h-[33px] bg-[#FFFFFF] rounded-[21px] absolute left-[2%] top-[50%] transform -translate-x-[2%] -translate-y-1/2 -hover:scale-[20]"></div>
                         <div className="w-[19px] h-[19px] sm:w-[33px] sm:h-[33px] absolute flex items-center justify-center left-[2%] top-[50%] transform -translate-x-[2%] -translate-y-1/2">
                             <div className="w-[8px] h-[4px] sm:w-[14px] sm:h-[8px] flex justify-center items-center">
@@ -28,7 +28,7 @@ function BannerSection({ style }) {
                     </div>
 
                     {/* Badge 2 */}
-                    <div className=" flex bg-[#C3E1E7] rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute top-[40%] right-[-2%] sm:right-[-1%] md:right-[-6%] overflow-hidden">
+                    <div className=" flex bg-[#C3E1E7] rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute top-[40%] right-[-2%] sm:right-[-1%] md:right-[-6%] overflow-hidden hover-bg-left-to-right">
                         <div className="w-[19px] h-[19px] sm:w-[33px] flex items-center sm:h-[33px] bg-[#FFFFFF] rounded-[21px] absolute left-[2%] top-[50%] transform -translate-x-[2%] -translate-y-1/2 -hover:scale-[20]"></div>
                         <div className="w-[19px] h-[19px] sm:w-[33px] sm:h-[33px] absolute flex items-center justify-center left-[2%] top-[50%] transform -translate-x-[2%] -translate-y-1/2">
                             <div className="w-[8px] h-[4px] sm:w-[14px] sm:h-[8px] flex justify-center items-center">
@@ -41,7 +41,7 @@ function BannerSection({ style }) {
                     </div>
 
                     {/* Badge 3 */}
-                    <div className=" flex bg-[#BCDCBE] z-20 rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute bottom-[13%] right-[26%] z-2 overflow-hidden">
+                    <div className=" flex bg-[#BCDCBE] z-20 rounded-[21px] p-[5px_10px_5px_25px] sm:p-[10px_20px_10px_45px] absolute bottom-[13%] right-[26%] z-2 overflow-hidden hover-bg-left-to-right">
                         <div className="w-[19px] h-[19px] sm:w-[33px] flex items-center sm:h-[33px] bg-[#FFFFFF] rounded-[21px] absolute left-[2%] transform translate-x-[-2%] min-[391px]:left-[3%] top-[50%] min-[391px]:top-[51%] translate-y-[-50%] -hover:scale-[20]"></div>
                         <div className="w-[19px] h-[19px] sm:w-[33px] sm:h-[33px] absolute flex items-center justify-center left-[2%] translate-x-[-2%] min-[391px]:left-[3%] top-[50%] min-[391px]:top-[51%] translate-y-[-50%]">
                             <div className="w-[8px] h-[4px] sm:w-[14px] sm:h-[8px] flex justify-center items-center">
