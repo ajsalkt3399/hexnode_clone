@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Message from './InteractiveTab/Message';
 import News from './InteractiveTab/News';
 import HomeTab from './InteractiveTab/HomeTab';
-function InteractiveModal() {
+function InteractiveModal({ isModalOpen }) {
+ 
   const [activeTab, setActiveTab] = useState('home');
-  
+
 
   return (
-    <div className={`w-[400px] overflow-hidden max-[400px]:w-[90%] h-[80vh] bg-gradient-to-b flex flex-col justify-between  ${activeTab === 'home'  ? 'from-[#2E72F6]' : 'from-[#ffffff]'}  from-[#2E72F6] rounded-[25px]  to-white z-50 fixed bottom-[80px] right-[20px]`}>
-      <div className='h-[90%] overflow-y-scroll '>   
-      {activeTab === 'home' ? <HomeTab /> : activeTab === 'messages' ? <Message /> : <News />}
+    <div className={`w-[400px] overflow-hidden no-scroll max-[400px]:w-[90%] h-[80vh] bg-gradient-to-b flex flex-col justify-between  ${activeTab === 'home' ? 'from-[#2E72F6]' : 'from-[#ffffff]'}  from-[#2E72F6] rounded-[25px]  to-white z-50 fixed bottom-[80px] right-[20px]`}>
+      <div className='h-[90%] overflow-y-scroll '>
+        {activeTab === 'home' ? <HomeTab /> : activeTab === 'messages' ? <Message /> : <News />}
       </div >
       <div className='w-full h-[80px] p-4 bg-white text-[13px] mulishregular rounded-b-[25px] flex justify-around'>
         <div

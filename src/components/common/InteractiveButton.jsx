@@ -34,7 +34,7 @@ function InteractiveButton() {
                 )}
             </div>
 
-            {isModalOpen && <InteractiveModal />}
+            {isModalOpen && <InteractiveModal isModalOpen={isModalOpen} />}
 
         </div>
     );

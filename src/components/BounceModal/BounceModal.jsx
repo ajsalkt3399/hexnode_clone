@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Image from "../../Assets/images/trail_bg.jpeg";
 import Close from "../../Assets/images/close_icon_popup.svg";
-import Button from '../Buttons/Button';
 
 function BounceModal({ setItsTimeToBounce }) {
     const modalRef = useRef(null); // Create a ref for the modal container
